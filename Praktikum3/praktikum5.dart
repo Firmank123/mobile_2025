@@ -16,4 +16,12 @@ void main() {
   // Record type annotation in a variable declaration:
   (String, int) mahasiswa = ('M. Firmansyah', 2341720099);
   print(mahasiswa);
+
+  // Langkah 4
+  var mahasiswa2 = ('first', a: 'M. Firmansyah', b: 2341720099, 'last');
+
+  print(mahasiswa2.$1); // Prints 'first'
+  print(mahasiswa2.a); // Prints 'M. Firmansyah'
+  print(mahasiswa2.b); // Prints 2341720099
+  print(mahasiswa2.$2); // Prints 'last'
 }
