@@ -10,4 +10,14 @@ void main() {
 
   var list3 = [0, ...list1];
   print(list3.length);
+
+  // PromoActive true
+  bool promoActive = true;
+  var nav = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav);
+
+  // PromoActive false
+  promoActive = false;
+  var nav1 = ['Home', 'Furniture', 'Plants', if (promoActive) 'Outlet'];
+  print(nav1);
 }
